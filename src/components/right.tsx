@@ -16,7 +16,7 @@ export default function Right() {
       </div>
       
       <p className="text-gray-300 mb-16">
-        I'm a passionate software engineer with a focus on creating elegant solutions 
+        I&apos;m a passionate software engineer with a focus on creating elegant solutions 
         to complex problems. I enjoy working with modern web technologies and building 
         user-friendly applications that make a difference.
       </p>

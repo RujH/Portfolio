@@ -3,7 +3,7 @@ export default function Contact() {
       <div id="contact" className="grid gap-4 max-w-4xl text-left pb-8 px-4">
         <div>
           <h1 className="text-6xl font-black text-white">
-            LET'S WORK
+            LET&apos;S WORK
           </h1>
           <h1 className="text-6xl font-black text-gray-800 mt-2">
             TOGETHER
