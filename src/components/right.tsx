@@ -1,3 +1,4 @@
+import Contact from "./contact";
 import Experience from "./experience";
 import Projects from "./projects";
 import Tools from "./tools";
@@ -14,7 +15,7 @@ export default function Right() {
         </h1>
       </div>
       
-      <p className="text-gray-300 mb-8">
+      <p className="text-gray-300 mb-16">
         I'm a passionate software engineer with a focus on creating elegant solutions 
         to complex problems. I enjoy working with modern web technologies and building 
         user-friendly applications that make a difference.
@@ -23,6 +24,7 @@ export default function Right() {
       <Projects/>
       <Experience/>
       <Tools/>
+      <Contact/>
     
     
      
