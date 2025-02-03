@@ -4,7 +4,7 @@ import Tools from "./tools";
 
 export default function Right() {
   return (
-    <div className="grid gap-4 max-w-sm text-left pb-8 overflow-y-auto">
+    <div className="grid gap-4 max-w-2xl text-left pb-8 overflow-y-auto">
       <div>
         <h1 className="text-6xl font-black text-white">
           SOFTWARE
