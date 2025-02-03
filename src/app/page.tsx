@@ -10,10 +10,10 @@ export default function Home() {
       </div>
       
       <main className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] p-2 sm:p-4 mt-10">
-        <div className="flex justify-center items-start md:pr-8 sticky top-24">
+        <div className="flex justify-center items-start md:pr-8 sticky top-32">
           <Left />
         </div>
-        <div className="flex justify-center md:-ml-32 h-[calc(100vh-8rem)] overflow-hidden">
+        <div className="flex justify-center md:-ml-32 h-[calc(100vh-8rem)] overflow-hidden sticky top-32">
           <Right />
         </div>
       </main>

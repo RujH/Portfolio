@@ -7,13 +7,13 @@ export default function Header() {
         <a href="#" className="text-white hover:text-gray-300">
           <Home size={22} />
         </a>
-        <a href="#" className="text-white hover:text-gray-300">
+        <a href="#projects" className="text-white hover:text-gray-300">
           <Folder size={22} />
         </a>
-        <a href="#" className="text-white hover:text-gray-300">
+        <a href="#experience" className="text-white hover:text-gray-300">
           <Briefcase size={22} />
         </a>
-        <a href="#" className="text-white hover:text-gray-300">
+        <a href="#tools" className="text-white hover:text-gray-300">
           <Wrench size={22} />
         </a>
         <a href="#" className="text-white hover:text-gray-300">

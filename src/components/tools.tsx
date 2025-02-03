@@ -4,7 +4,7 @@ import { tools } from '../data/toolsData';
 
 export default function Tools() {
     return (
-      <div className="grid gap-4 max-w-xl text-left pb-8">
+      <div id="tools" className="grid gap-4 max-w-4xl text-left pb-8">
         <div>
           <h1 className="text-6xl font-black text-white">
             TOOLS

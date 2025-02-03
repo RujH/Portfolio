@@ -3,7 +3,7 @@ import Card from "./card";
 
 export default function Experience() {
     return (
-      <div className="grid gap-4 max-w-4xl text-left pb-8">
+      <div id="experience" className="grid gap-4 max-w-4xl text-left pb-8">
         <div>
           <h1 className="text-6xl font-black text-white">
             5 YEARS OF

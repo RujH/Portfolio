@@ -3,7 +3,7 @@ import Card from "./card";
 
 export default function Projects() {
     return (
-      <div className="grid gap-4 max-w-4xl text-left pb-8">
+      <div id="projects" className="grid gap-4 max-w-4xl text-left pb-8">
         <div>
           <h1 className="text-6xl font-black text-white">
             RECENT
