@@ -16,7 +16,7 @@ export default function Header() {
         <a href="#tools" className="text-white hover:text-gray-300">
           <Wrench size={22} />
         </a>
-        <a href="#" className="text-white hover:text-gray-300">
+        <a href="#contact" className="text-white hover:text-gray-300">
           <StickyNote size={22} />
         </a>
       </div>

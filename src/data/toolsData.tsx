@@ -13,6 +13,12 @@ export const tools: Tool[] = [
         image: "/figma.svg"
     },
     {
+        name: "React Native",
+        description: "Mobile framework",
+        link: "https://reactnative.dev/",
+        image: "/react-native.svg"
+    },
+    {
         name: "React",
         description: "Frontend framework",
         link: "https://reactjs.org/",
@@ -23,6 +29,12 @@ export const tools: Tool[] = [
         description: "JavaScript with types",
         link: "https://www.typescriptlang.org/",
         image: "/typescript.svg"
+    },
+    {
+        name: "javascript",
+        description: "Programming language",
+        link: "https://www.javascript.com/",
+        image: "/javascript.svg"
     },
     {
         name: "Python",
@@ -41,5 +53,25 @@ export const tools: Tool[] = [
         description: "CSS framework",
         link: "https://tailwindcss.com/",
         image: "/tailwind.svg"
-    }
+    },
+    {
+        name: "AWS",
+        description: "Cloud service",
+        link: "https://aws.amazon.com/",
+        image: "/aws.svg"
+    },
+    {
+        name: "Supabase",
+        description: "Cloud service",
+        link: "https://supabase.com/",
+        image: "/supabase.svg"
+    },
+   
+    {
+        name: "Node.js",
+        description: "JavaScript runtime",
+        link: "https://nodejs.org/",
+        image: "/nodejs.svg"
+    },
+ 
 ];
