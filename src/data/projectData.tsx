@@ -1,5 +1,5 @@
 // In src/data/projectData.tsx
-export interface Project {
+export interface ProjectInterface {
     name: string;
     description: string;
     date: string;
@@ -11,7 +11,7 @@ export interface Project {
 
 
 
-export const projects: Project[] = [
+export const projects: ProjectInterface[] = [
     {
         name: "Recipe App",
         description: "Coming soon",

@@ -1,15 +1,15 @@
 "use client"
 
 import { useState } from "react";
-import { experiences, Experience } from "@/data/experienceData";
+import { experiences, ExperienceInterface } from "@/data/experienceData";
 import Card from "./card";
 import Modal from "./modal";
 
 export default function Experience() {
-    const [selectedExperience, setSelectedExperience] = useState<Experience | null>(null);
+    const [selectedExperience, setSelectedExperience] = useState<ExperienceInterface | null>(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    const openModal = (exp: Experience) => {
+    const openModal = (exp: ExperienceInterface) => {
         setSelectedExperience(exp);
         setIsModalOpen(true);
     };

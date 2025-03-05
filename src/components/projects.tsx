@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react";
-import { projects, Project } from "@/data/projectData";
+import { projects, ProjectInterface } from "@/data/projectData";
 import Card from "./card";
 import Modal from "./modal";
 import ImageSlideshow from "./ImageSlideshow";
@@ -10,10 +10,10 @@ import React from "react";
 import Image from "next/image";
 
 export default function Projects() {
-    const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+    const [selectedProject, setSelectedProject] = useState<ProjectInterface | null>(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    const openModal = (project: Project) => {
+    const openModal = (project: ProjectInterface) => {
         setSelectedProject(project);
         setIsModalOpen(true);
     };

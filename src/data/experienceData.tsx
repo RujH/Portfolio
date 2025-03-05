@@ -1,4 +1,4 @@
-interface Experience {
+export interface ExperienceInterface {
     name: string;
     description: string[];
     date: string;
@@ -6,7 +6,7 @@ interface Experience {
     link?: string;
 }
 
-export const experiences: Experience[] = [
+export const experiences: ExperienceInterface[] = [
     {
         name: "JumpStart",
         description: ["Co-founded JumpStart to provide structured development opportunities for college students, connecting product owners with project managers and developers to create products.",
