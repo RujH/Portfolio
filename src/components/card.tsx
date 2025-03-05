@@ -5,11 +5,13 @@ interface CardProps {
   name: string;
   description: string | string[];
   date: string;
+  gitHubLink?: string;
+  figmaLink?: string;
   link?: string;
   onClick?: () => void;
 }
 
-export default function Card({ name, description, date, link, onClick }: CardProps) {
+export default function Card({ name, description, date, gitHubLink, figmaLink, link, onClick }: CardProps) {
   // Format description to handle both string and string[] types
   const formattedDescription = typeof description === 'string' 
     ? description 

@@ -1,15 +1,15 @@
 "use client"
 
 import { useState } from "react";
-import { experience } from "@/data/experienceData";
+import { experiences, Experience } from "@/data/experienceData";
 import Card from "./card";
 import Modal from "./modal";
 
 export default function Experience() {
-    const [selectedExperience, setSelectedExperience] = useState(null);
+    const [selectedExperience, setSelectedExperience] = useState<Experience | null>(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    const openModal = (exp) => {
+    const openModal = (exp: Experience) => {
         setSelectedExperience(exp);
         setIsModalOpen(true);
     };
@@ -29,7 +29,7 @@ export default function Experience() {
           </h1>
         </div>
         <div className="grid grid-cols-1 gap-4">
-            {experience.map((exp) => (
+            {experiences.map((exp) => (
             <Card
                 key={exp.name}
                 name={exp.name}
@@ -66,7 +66,7 @@ export default function Experience() {
                 </div>
                 {Array.isArray(selectedExperience.description) ? (
                   <ul className="list-disc pl-6 space-y-3">
-                    {selectedExperience.description.map((desc, index) => (
+                    {selectedExperience.description.map((desc: string, index: number) => (
                       <li key={index} className="text-gray-300 text-lg">{desc}</li>
                     ))}
                   </ul>

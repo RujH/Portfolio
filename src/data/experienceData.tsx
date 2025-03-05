@@ -6,7 +6,7 @@ interface Experience {
     link?: string;
 }
 
-export const experience: Experience[] = [
+export const experiences: Experience[] = [
     {
         name: "JumpStart",
         description: ["Co-founded JumpStart to provide structured development opportunities for college students, connecting product owners with project managers and developers to create products.",
@@ -34,7 +34,7 @@ export const experience: Experience[] = [
             "Utilized React Context API for efficient state management, ensuring centralized and easily accessible state across different components.",
             "Followed the agile workflow with weekly team meetings and daily standups."
         ],
-        date: "June 2020 - Septemebr 2020",
+        date: "June 2020 - September 2020",
         role: "Software Engineer"
     }
 ];

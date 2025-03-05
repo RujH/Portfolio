@@ -3,6 +3,7 @@ interface ProfileInfo {
     description: string;
     linkedIn: string;
     github: string;
+    email: string;
 }
 
 export const info: ProfileInfo = 
@@ -11,7 +12,7 @@ export const info: ProfileInfo =
         description: "Software engineer combining tech and creativity to build meaningful experiences.",
         linkedIn: "https://www.linkedin.com/in/ruj-haan/",
         github: "https://github.com/rujh",
-       
+        email: "rujhaan01@gmail.com"
     }
   
 
