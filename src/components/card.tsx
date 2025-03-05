@@ -11,7 +11,7 @@ interface CardProps {
   onClick?: () => void;
 }
 
-export default function Card({ name, description, date, gitHubLink, figmaLink, link, onClick }: CardProps) {
+export default function Card({ name, description, date, link, onClick }: CardProps) {
   // Format description to handle both string and string[] types
   const formattedDescription = typeof description === 'string' 
     ? description 

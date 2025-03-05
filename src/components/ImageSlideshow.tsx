@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
 
 interface ImageSlideshowProps {
   images: string[];
@@ -29,10 +30,12 @@ export default function ImageSlideshow({ images }: ImageSlideshowProps) {
   return (
     <div className="relative h-full w-full">
       <div className="h-64 md:h-80 relative rounded-lg overflow-hidden">
-        <img
+        <Image
           src={images[currentIndex]}
           alt={`Project image ${currentIndex + 1}`}
-          className="w-full h-full object-contain"
+          fill
+          className="object-contain"
+          priority={currentIndex === 0}
         />
       </div>
       

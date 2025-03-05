@@ -7,6 +7,7 @@ import Modal from "./modal";
 import ImageSlideshow from "./ImageSlideshow";
 import { MoveUpRight } from 'lucide-react';
 import React from "react";
+import Image from "next/image";
 
 export default function Projects() {
     const [selectedProject, setSelectedProject] = useState<Project | null>(null);
@@ -101,7 +102,7 @@ export default function Projects() {
                         className="flex items-center gap-2 text-blue-500 hover:text-blue-400 transition-colors"
                         title="GitHub Repository"
                       >
-                        <img src="/github.svg" alt="GitHub" className="w-9 h-9" />
+                        <Image src="/github.svg" alt="GitHub" width={36} height={36} className="w-9 h-9" />
                       </a>
                     )}
                     {selectedProject.figmaLink && (
@@ -112,7 +113,7 @@ export default function Projects() {
                         className="flex items-center gap-2 text-blue-500 hover:text-blue-400 transition-colors"
                         title="Figma Design"
                       >
-                        <img src="/figma.svg" alt="Figma" className="w-6 h-6" />
+                        <Image src="/figma.svg" alt="Figma" width={24} height={24} className="w-6 h-6" />
                         <span>Figma</span>
                       </a>
                     )}

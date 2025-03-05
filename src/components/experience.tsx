@@ -29,15 +29,15 @@ export default function Experience() {
           </h1>
         </div>
         <div className="grid grid-cols-1 gap-4">
-            {experiences.map((exp) => (
-            <Card
-                key={exp.name}
-                name={exp.name}
-                description={exp.description}
-                date={exp.date}
-                onClick={() => openModal(exp)}
-            />
-            ))}
+          {experiences.map((exp) => (
+          <Card
+            key={exp.name}
+            name={exp.name}
+            description={exp.description}
+            date={exp.date}
+            onClick={() => openModal(exp)}
+          />
+          ))}
         </div>
 
         {isModalOpen && selectedExperience && (
