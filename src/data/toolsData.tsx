@@ -9,7 +9,7 @@ export const tools: Tool[] = [
     {
         name: "Figma",
         description: "Design tool",
-        link: "https://www.figma.com/",
+        link: "https://www.figma.com",
         image: "/figma.svg"
     },
     {

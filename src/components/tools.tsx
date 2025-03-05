@@ -9,7 +9,7 @@ export default function Tools() {
           <h1 className="text-6xl font-black text-white">
             TOOLS
           </h1>
-          <h1 className="text-6xl font-black text-gray-800 mt-2">
+          <h1 className="text-6xl font-black text-orange-800 mt-2">
             USED
           </h1>
         </div>

@@ -24,7 +24,7 @@ export default function Experience() {
           <h1 className="text-6xl font-black text-white">
             5 YEARS OF
           </h1>
-          <h1 className="text-6xl font-black text-gray-800 mt-2">
+          <h1 className="text-6xl font-black text-orange-800 mt-2">
             EXPERIENCE
           </h1>
         </div>
