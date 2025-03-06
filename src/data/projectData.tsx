@@ -14,7 +14,7 @@ export interface ProjectInterface {
 export const projects: ProjectInterface[] = [
     {
         name: "Recipe App",
-        description: "Coming soon",
+        description: "Design in progress",
         date: "March 2025 - Present",
         figmaLink: "https://www.figma.com",
         img: ["/comingSoon.svg"]
@@ -47,7 +47,7 @@ export const projects: ProjectInterface[] = [
         description: "My portfolio is designed to be interactive and visually dynamic, showcasing my work in a way that goes beyond traditional layouts. Inspired by Sawad and Mejed Alkoutaini, I focused on motion, depth, and responsiveness to create an engaging experience.",
         date: "February 2025",
         gitHubLink: "https://github.com/RujH/Portfolio",
-        webLink: "https://rujportfolio.vercel.app/",
-        img: []
+        webLink: "https://www.framer.com/@mejed-alkoutaini/?tab=templates&via=mejed_k&fp_sid=mbsawad",
+        img: ["/projectImg/portfolio1.png"]
     }
 ];
