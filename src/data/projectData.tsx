@@ -24,7 +24,8 @@ export const projects: ProjectInterface[] = [
         description: "Sustainability in fashion is more than a trend—it’s a necessary shift. This 3D interactive website transforms learning into an experience, letting users explore a virtual store, interact with eco-friendly materials, and see the impact of their choices in real time.\n\nBuilt with WebGL and Three.js, the site blends storytelling and technology to showcase the lifecycle of clothing—from ethical sourcing to responsible recycling. Instead of passively reading about sustainability, visitors can engage, discover, and take action.",
         date: "June 2024 - August 2024", 
         gitHubLink: "https://github.com/rujh/task-manager",
-        img: ["https://via.placeholder.com/150", "https://via.placeholder.com/150", "https://via.placeholder.com/150"]
+        webLink: "https://jumpstart-2024.github.io/react-3d-project",
+        img: ["/projectImg/interactiveWeb1.png", "/projectImg/interactiveWeb2.png", "/projectImg/interactiveWeb3.png"]
     },
     {
         name: "Universal Data Website",
