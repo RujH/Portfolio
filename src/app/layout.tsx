@@ -14,7 +14,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Portfolio | Ruj Haan",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png", // Optional for iOS
+  },
 };
+
+
 
 export default function RootLayout({
   children,
